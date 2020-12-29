@@ -63,31 +63,31 @@ class Main extends React.Component {
             Analysed customer issues regarding diagnostic logging failure in IBSG 
             </li>
             <li>
-            Performed Unit Testing of the project C Wles using IBM RTRT tool
+            Performed Unit Testing of the project C Files using IBM RTRT tool
             </li>
             <li>
              Worked in CANoe test modules for the automation of UDS test cases 
             </li>
             <li>
-             Worked in Static Analysis warnings Wx for C Wles:
+             Worked in Static Analysis warnings fix for C files
 
             </li>
           </ul>
-          <p>TOOLS : </p>
+          <p>TOOLS </p>
           <ul>
             <li>
-            Unit TestingV IBM Rational Test RealTime Studio
+            Unit Testing : IBM Rational Test RealTime Studio
 
             </li>
             <li>
-            Static warnings WxV Klocworks
+            Static warnings fix : Klocworks
 
             </li>
             <li>
-            DebuggerV UDE
+            Debugger : UDE
             </li>
             <li>
-            TestingV 8ector CANalyser, CANoe
+            Testing : Vector CANalyser, CANoe
 
             </li>
           </ul>
@@ -106,32 +106,32 @@ class Main extends React.Component {
             Responsible for LIN and Memory stack
             </li>
             <li>
-            Development of System Description for test cases speciWed by Autosar acceptance test speciWcation using 8ector PREEvision Tool.
+            Development of System Description for test cases specified by Autosar acceptance test specification using Vector PREEvision Tool.
             </li>
             <li>
-             Configuration, Code generation using Da8inci Configurator Pro Tool. 
+             Configuration, Code generation using DaVinci Configurator Pro Tool. 
             </li>
             <li>
             Development of CAPL Script for automatic validation of test cases.
 
             </li>
           </ul>
-          <p>TOOLS : </p>
+          <p>TOOLS </p>
           <ul>
             <li>
-            Autosar PREEvision, Davinci Configurator Pro, Da8inci Developer, CANoe, EBTresos
+            Autosar PREEvision, Davinci Configurator Pro, Davinci Developer, CANoe, EBTresos
 
 
             </li>
             <li>
-            Compiler GHS
+            Compiler : GHS
 
             </li>
             <li>
-            Debugger TRACE32
+            Debugger : TRACE32
             </li>
             <li>
-            Microcontroller MPC574JG
+            Microcontroller : MPC574JG
 
             </li>
           </ul>
@@ -147,24 +147,24 @@ class Main extends React.Component {
           <h2 className="major">Education</h2>
           
         
-          <p >Jun 2013 - Apr 2017  - R.M.D Engineering College [Thiruvallur]</p>
+          <p >Jun 2013 - Apr 2017  - R.M.D Engineering College  - Thiruvallur</p>
           <h3> BE - Electronics and Communication </h3>
           <p>
           CGPA : 8.53/10
          
           </p>
           <div className = 'line'></div>
-          <p>Jun 2012 - Mar 2013  - Velammal MHSS [Chennai]</p>
+          <p>Jun 2012 - Mar 2013  - Velammal MHSS  - Chennai</p>
           <h3>HSC </h3>
           <p>
           Percentage : 95.5
 
           </p>
           <div className = 'line'></div>
-          <p>Jun 2010 - Apr 2011  - St.John's MHSS [Chennai]</p>
+          <p>Jun 2010 - Apr 2011  - St.John's MHSS  - Chennai</p>
           <h3>SSLC </h3>
           <p>
-          Percentage : 95.5
+          Percentage : 93.2
 
           </p>
           
@@ -199,21 +199,25 @@ class Main extends React.Component {
         >
           <h2 className="major">Certifications</h2>
           
-          <p>UDEMY - May 2020</p>
+         
           <h3> Controller Area Network In-depth Analysis of CAN bus protocol</h3>
+          <p>UDEMY - May 2020</p>
+          <div className = 'line'></div>
           
-          <div className = 'line'></div>
-          <p>Goethe Institute - May 2020</p>
           <h3> Start Deutsch A2</h3>
+          <p>Goethe Institute - May 2020</p>
           <div className = 'line'></div>
+       
+          <h3> MATLAB programming for Numerical Computation</h3>
           <p>Indian Institute of Science - Oct 2017</p>
-          <h3> MATLAP programming for Numerical Computation</h3>
           <div className = 'line'></div>
-          <p>British Council - Jan 2020</p>
+         
           <h3>IELTS C1</h3>
+          <p>British Council - Jan 2020</p>
           <div className = 'line'></div>
-          <p>University of Cambridge- Jan 2017</p>
+          
           <h3>BEC Vantage</h3>
+          <p>University of Cambridge- Jan 2017</p>
           
          
           {close}
@@ -235,7 +239,7 @@ class Main extends React.Component {
               >
               
               </a>
-              <p className = 'label'>+91 904214900</p>
+              <p className = 'label'>+91 9042143900</p>
             </div>
             <div className = 'flex'>
               <a
