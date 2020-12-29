@@ -8,3 +8,15 @@
 .label{
     padding-left: 20px;
 }
+.line {
+    width : 90%;
+    border :  solid 0.01em #5f5d5d;
+
+}
+.h3{
+    margin-top : 10px !important;
+}
+.p{
+    margin : 0px;
+    padding : 10px !important;
+}

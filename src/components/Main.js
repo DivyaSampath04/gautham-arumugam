@@ -92,6 +92,7 @@ class Main extends React.Component {
             </li>
           </ul>
           {/*==============*/}
+          <div className = 'line'></div>
           <p>
           Oct 2017 — Sep 2019 
           </p>
@@ -108,7 +109,7 @@ class Main extends React.Component {
             Development of System Description for test cases speciWed by Autosar acceptance test speciWcation using 8ector PREEvision Tool.
             </li>
             <li>
-             ConWguration, Code generation using Da8inci ConWgurator Pro Tool. 
+             Configuration, Code generation using Da8inci Configurator Pro Tool. 
             </li>
             <li>
             Development of CAPL Script for automatic validation of test cases.
@@ -118,25 +119,58 @@ class Main extends React.Component {
           <p>TOOLS : </p>
           <ul>
             <li>
-            AutosarV PREEvision, Davinci ConWgurator Pro, Da8inci Developer, CANoe, EBTresos
+            Autosar PREEvision, Davinci Configurator Pro, Da8inci Developer, CANoe, EBTresos
 
 
             </li>
             <li>
-            CompilerV GHS
+            Compiler GHS
 
             </li>
             <li>
-            DebuggerV TRACE32
+            Debugger TRACE32
             </li>
             <li>
-            MicrocontrollerV MPC574JG
+            Microcontroller MPC574JG
 
             </li>
           </ul>
           {close}
         </article>
+        <article
+          id="about"
+          className={`${this.props.article === 'edu' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Education</h2>
+          
+        
+          <p >Jun 2013 - Apr 2017  - R.M.D Engineering College [Thiruvallur]</p>
+          <h3> BE - Electronics and Communication </h3>
+          <p>
+          CGPA : 8.53/10
+         
+          </p>
+          <div className = 'line'></div>
+          <p>Jun 2012 - Mar 2013  - Velammal MHSS [Chennai]</p>
+          <h3>HSC </h3>
+          <p>
+          Percentage : 95.5
 
+          </p>
+          <div className = 'line'></div>
+          <p>Jun 2010 - Apr 2011  - St.John's MHSS [Chennai]</p>
+          <h3>SSLC </h3>
+          <p>
+          Percentage : 95.5
+
+          </p>
+          
+         
+          {close}
+        </article>
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -153,12 +187,7 @@ class Main extends React.Component {
 
           </p>
           
-          <p>Jan 2020</p>
-          <h3>IELTS TEST SCORE </h3>
-          <p>
-          CEFR level C1 : 7.5/10
-
-          </p>
+         
           {close}
         </article>
         <article
@@ -173,15 +202,16 @@ class Main extends React.Component {
           <p>UDEMY - May 2020</p>
           <h3> Controller Area Network In-depth Analysis of CAN bus protocol</h3>
           
+          <div className = 'line'></div>
           <p>Goethe Institute - May 2020</p>
           <h3> Start Deutsch A2</h3>
-          
+          <div className = 'line'></div>
           <p>Indian Institute of Science - Oct 2017</p>
           <h3> MATLAP programming for Numerical Computation</h3>
-          
+          <div className = 'line'></div>
           <p>British Council - Jan 2020</p>
           <h3>IELTS C1</h3>
-         
+          <div className = 'line'></div>
           <p>University of Cambridge- Jan 2017</p>
           <h3>BEC Vantage</h3>
           
