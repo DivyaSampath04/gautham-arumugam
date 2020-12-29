@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import './Main.css';
 
 class Main extends React.Component {
   render() {
@@ -28,29 +29,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">About</h2>
+         
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+           A self learned, self motivated enthusiast with 3.5 years of industry experience.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Having expertise in AUTOSAR based Embedded Software Development and Software maintenance activities related to Powertrain.
+
           </p>
           {close}
         </article>
@@ -63,24 +49,91 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+        
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Oct 2019 - present.
           </p>
+          <p style = {{textTransform : 'capitalize'}}>
+          Senior Software Engineer - KPIT Technologies Ltd.
+
+          </p>
+          <h3>Valeo's Integrated Belt Starter Generator (IBSG)</h3>
+          <ul>
+            <li>
+            Analysed customer issues regarding diagnostic logging failure in IBSG 
+            </li>
+            <li>
+            Performed Unit Testing of the project C Wles using IBM RTRT tool
+            </li>
+            <li>
+             Worked in CANoe test modules for the automation of UDS test cases 
+            </li>
+            <li>
+             Worked in Static Analysis warnings Wx for C Wles:
+
+            </li>
+          </ul>
+          <p>TOOLS : </p>
+          <ul>
+            <li>
+            Unit TestingV IBM Rational Test RealTime Studio
+
+            </li>
+            <li>
+            Static warnings WxV Klocworks
+
+            </li>
+            <li>
+            DebuggerV UDE
+            </li>
+            <li>
+            TestingV 8ector CANalyser, CANoe
+
+            </li>
+          </ul>
+          {/*==============*/}
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          Oct 2017 — Sep 2019 
           </p>
+          <p style = {{textTransform : 'capitalize'}}>
+          Software Engineer - KPIT Technologies Ltd.
+
+          </p>
+          <h3>Acceptance Testing Framework Development for Ford Motor Private Limited</h3>
+          <ul>
+            <li>
+            Responsible for LIN and Memory stack
+            </li>
+            <li>
+            Development of System Description for test cases speciWed by Autosar acceptance test speciWcation using 8ector PREEvision Tool.
+            </li>
+            <li>
+             ConWguration, Code generation using Da8inci ConWgurator Pro Tool. 
+            </li>
+            <li>
+            Development of CAPL Script for automatic validation of test cases.
+
+            </li>
+          </ul>
+          <p>TOOLS : </p>
+          <ul>
+            <li>
+            AutosarV PREEvision, Davinci ConWgurator Pro, Da8inci Developer, CANoe, EBTresos
+
+
+            </li>
+            <li>
+            CompilerV GHS
+
+            </li>
+            <li>
+            DebuggerV TRACE32
+            </li>
+            <li>
+            MicrocontrollerV MPC574JG
+
+            </li>
+          </ul>
           {close}
         </article>
 
@@ -91,22 +144,50 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <h2 className="major">Accomplishments</h2>
+          
+          <p>May 2019</p>
+          <h3> Go-Getter Award </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+          Provided for successful completion of AUTOSAR LIN and Memory stack in ord-s AUTOSAR Acceptance Test ramework Development project
+
+          </p>
+          
+          <p>Jan 2020</p>
+          <h3>IELTS TEST SCORE </h3>
+          <p>
+          CEFR level C1 : 7.5/10
+
           </p>
           {close}
         </article>
-
+        <article
+          id="cert"
+          className={`${this.props.article === 'cert' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Certifications</h2>
+          
+          <p>UDEMY - May 2020</p>
+          <h3> Controller Area Network In-depth Analysis of CAN bus protocol</h3>
+          
+          <p>Goethe Institute - May 2020</p>
+          <h3> Start Deutsch A2</h3>
+          
+          <p>Indian Institute of Science - Oct 2017</p>
+          <h3> MATLAP programming for Numerical Computation</h3>
+          
+          <p>British Council - Jan 2020</p>
+          <h3>IELTS C1</h3>
+         
+          <p>University of Cambridge- Jan 2017</p>
+          <h3>BEC Vantage</h3>
+          
+         
+          {close}
+        </article>
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
@@ -115,56 +196,38 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li>
+         
+          <div className="contact">
+           <div className = 'flex'>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+              
+                className="icon fa-phone"
               >
-                <span className="label">Twitter</span>
+              
               </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
+              <p className = 'label'>+91 904214900</p>
+            </div>
+            <div className = 'flex'>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+               
+                className="icon fa-envelope"
               >
-                <span className="label">GitHub</span>
+               
               </a>
-            </li>
-          </ul>
+              <p className = 'label'>gautham271095@gmail.com</p>
+            </div>
+            <div className = 'flex'>
+              <a
+                href="https://www.linkedin.com/in/gautham-arumugam-75b103102/"
+                className="icon fa-linkedin"
+              >
+               
+              </a>
+              <p className = 'label'>Gautham Arumugam</p>
+            </div>
+            
+            
+            </div>
           {close}
         </article>
       </div>

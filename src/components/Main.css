@@ -1,0 +1,10 @@
+.contact{
+    display: grid;
+}
+.flex {
+    display: flex;
+   
+}
+.label{
+    padding-left: 20px;
+}

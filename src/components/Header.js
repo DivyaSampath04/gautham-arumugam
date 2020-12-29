@@ -1,20 +1,20 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import Capture from "../images/Capture.png";
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon">
+           <img src = {Capture} style = {{width : '100%',height : '100%',borderRadius : '50%'}}/>
+      </span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Gautham Arumugam</h1>
+        <h3> Embedded Software Engineer</h3>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+         Chennai, India
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            About
           </button>
         </li>
         <li>
@@ -44,7 +44,16 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Accomplishments
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('cert')
+            }}
+          >
+            Certifications
           </button>
         </li>
         <li>
