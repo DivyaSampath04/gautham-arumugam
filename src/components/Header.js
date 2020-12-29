@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-//import Capture from "../images/Capture.png";
+import Capture from '../images/Capture.png';
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    {/* <div className="logo">
+    <div className="logo">
       <span className="icon">
            <img src = {Capture} style = {{width : '100%',height : '100%',borderRadius : '50%'}}/>
       </span>
-    </div> */}
+    </div> 
     <div className="content">
       <div className="inner">
         <h1>Gautham Arumugam</h1>
