@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Capture from '../images/Capture.png';
+import gau from '../images/gau.png';
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <span className="icon">
-           <img src = {Capture} style = {{width : '100%',height : '100%',borderRadius : '50%'}}/>
+           <img src = {gau} style = {{width : '100%',height : '100%',borderRadius : '50%'}}/>
       </span>
     </div> 
     <div className="content">
